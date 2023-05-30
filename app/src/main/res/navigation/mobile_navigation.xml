@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mesaj_gonder">
+
+    <fragment
+        android:id="@+id/nav_mesaj_gonder"
+        android:name="com.example.smsapp.ui.home.HomeFragment"
+        android:label="Mesaj Gönder"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gruba_uye_ekle"
+        android:name="com.example.smsapp.ui.gallery.GalleryFragment"
+        android:label="Üye Ekle"
+        tools:layout="@layout/fragment_gruba_uye_ekle" />
+
+    <fragment
+        android:id="@+id/nav_grup_olustur"
+        android:name="com.example.smsapp.ui.slideshow.SlideshowFragment"
+        android:label="Grup Olustur"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_mesaj_olustur"
+        android:name="com.example.smsapp.Gruba_uye_ekle"
+        android:label="Mesaj Oluştur"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_cikis"
+        android:name="com.example.smsapp.cikis"
+        android:label="Çıkış"
+        tools:layout="@layout/fragment_cikis" />
+</navigation>

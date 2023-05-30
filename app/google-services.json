@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040437306322",
+    "project_id": "sms-app-a9596",
+    "storage_bucket": "sms-app-a9596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040437306322:android:d04401517e6972ddeade0b",
+        "android_client_info": {
+          "package_name": "com.example.smsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbF__CfWjQNal3hsrldV8RFK2aaRswmio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
